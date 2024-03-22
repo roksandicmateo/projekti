@@ -1,0 +1,592 @@
+.lobby{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  }
+
+  .recepcija{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  }
+
+  .sauna{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  }
+
+  .suite{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  }
+.
+  /*.teretana{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  }
+  
+  .lobby:hover {
+    transform: scale(1.5);
+  }*/
+
+  .recepcija:hover {
+    transform: scale(1.5);
+  }
+
+  .sauna:hover {
+    transform: scale(1.5);
+  }
+
+  .suite:hover {
+    transform: scale(1.5);
+  }
+
+  .teretana:hover {
+    transform: scale(1.5);
+  }
+
+  #cjenik {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+/*cjenik*/ 
+  
+  #cjenik th,
+  #cjenik td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+  
+  #cjenik th {
+    background-color: #ddd;
+  }
+  
+  #cjenik tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  #cjenik tr:hover {
+    background-color: #ddd;
+  }
+
+/*bootstrap*/
+
+ h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #007bff; 
+    margin-top: 2rem;
+  }
+  
+  nav {
+    background-color: #f8f9fa; 
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  nav {
+    color: #6c757d; 
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 1rem;
+  }
+  
+ nav a:hover {
+    color: #007bff;
+  }
+  
+  
+  #mainPonuda1 {
+    margin-bottom: 2rem;
+  }
+  
+  #pPonuda1 {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
+  #footerPonuda1 {
+    background-color: #f8f9fa;
+    padding: 1rem;
+  }
+  
+  #footerPonuda1 a img {
+    max-height: 30px;
+    margin-right: 1rem;
+  }
+  
+  #footerPonuda1 .license-info {
+    text-align: center;
+  }
+  
+  #footerPonuda1 .license-info img {
+    max-height: 20px;
+    margin-right: 0.5rem;
+  }
+  
+  .galerija img {
+    transition: transform 0.2s ease-in-out;
+}
+
+.galerija img:hover {
+    transform: scale(1.2);
+}
+
+  
+/*VELIČINE EKRANA*/
+
+
+/*MALI PRIKAZ*/
+
+
+/* Mali prikaz (do 479px) */
+@media only screen and (max-width: 479px) {
+  body{
+    background-color: bisque;
+  }
+
+  .form {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-input {
+    width: 100%;
+  }
+  
+  .galerija img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    max-width: 100%;
+    display: block;
+  } 
+
+  .logo  {
+    max-width: 100%;
+    display: block;
+    float: left;
+  } 
+    .logo  {
+      width: 30%;
+      height: auto;
+      margin-bottom: 20px;
+      float: left;
+    } 
+    .karta{
+      width: 95%;
+    }
+
+    .tablica{
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    .tablica {
+      border-collapse: collapse;
+      border-spacing: 0;
+      border: none;
+    }
+    
+
+    .video{
+      width: 10%;
+    }
+
+    .interaktivna{
+      width: 90%;
+    }
+
+    .photo-banner{
+      width: 100%;
+    }
+
+  #mainAutor img {
+    max-width: 100%;
+    display: block;
+  }
+    
+  #mainAutor img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    } 
+
+  .interaktivna img {
+    max-width: 100%;
+    display: block;
+  }
+    
+    .interaktivna img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    } 
+    table.tablica td:nth-child(n+2),
+    table.tablica th:nth-child(n+2) {
+      display: none;
+    }
+    
+    #cjenik h1 {
+      font-size: 1.5rem;
+    }
+    
+    table.tablica {
+      margin-bottom: 1rem;
+    }
+    
+  video {
+        width: 100%;
+        height: auto;
+      } 
+
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+      
+      textarea {
+        display: block;
+        margin-top: 5px;
+        padding: 5px;
+      }
+#kontakt{
+  width: 90%;
+}
+
+    #kontaktForma{
+      width: 90%;
+    }
+
+    #rezervacijaForma{
+      width: 90%;
+    }
+
+    /* Dropdown gumb */
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  width: 100%;
+  margin: 0;
+}
+
+.dropbtn{
+  width: 100%;
+  margin: 0;
+}
+
+
+
+/* The container <div> - sadržaj izbornika */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* sadržaj izbornika - sakriven */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* poveznice izbornika */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.ponuda1 img, .ponuda2 img, .ponuda3 img {
+  max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    float: left;
+  margin-right: 1em;
+}
+.image-text {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 0;
+  font-size: xx-small;
+}
+.image-text h2 {
+  color: #fff;
+  margin: 0;
+  font-size: 0.5 rem;
+}
+
+h1{
+  font-size: medium;
+}
+
+.logo{
+  width: 80%;
+}
+
+.logo img {
+  max-width: 100%;
+  display: block;
+}
+  
+  .logo img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }   
+}
+
+
+#mainAutor img{
+  width: 100%;
+}
+
+
+/*SREDNJI PRIKAZ*/
+
+
+/* Srednji prikaz (480px - 1023px) */
+@media only screen and (min-width: 480px) and (max-width: 1023px) {
+  .form {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+  .form-label {
+    grid-column: 1 / span 1;
+    justify-self: start;
+    margin-bottom: 10px;
+  }
+  
+  .form-input {
+    grid-column: 1 / span 1;
+  }
+
+  body{
+    background-color: black; 
+    color: blue; 
+  }
+  #mainAutor img{
+    width: 30%;
+  }
+
+  .dropbtn{
+    visibility: hidden;
+  }
+
+  video {
+    width: 100%;
+    height: auto;
+  } 
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  textarea {
+    display: block;
+    margin-top: 5px;
+    padding: 5px;
+  }
+
+  .karta{
+    width: 90%;
+  }
+
+  .interaktivna{
+    width: 80%;
+  }
+
+  interaktivna img {
+    max-width: 100%;
+    display: block;
+  }
+    
+    .interaktivna img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    } 
+
+}
+
+/*VELIKI PRIKAZ*/
+
+
+/* Veliki prikaz (1024px i više) */
+@media only screen and (min-width: 1024px) {
+  .dropbtn{
+    visibility: hidden;
+  }
+  body {
+    background-color: bisque;
+  }
+  .form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    align-items: center;
+  }
+  
+  .form-label {
+    grid-column: 1 / span 1;
+    justify-self: end;
+  }
+  
+  .form-input {
+    grid-column: 2 / span 1;
+  }
+
+  #mainAutor {
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  #mainAutor img {
+    position: relative;
+    left: 0%;
+  }
+  
+  /* CSS grid */
+  #mainAutor {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 10px;
+  }
+  
+  /* Relativno pozicioniranje */
+  #navAutor .dropdown {
+    position: relative;
+  }
+  
+  #navAutor .dropdown .dropdown-content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  /* Osobina prelijevanja */
+  #footerAutor {
+    background-color: #333;
+    color: white;
+    overflow: hidden;
+  }
+  
+  #footerAutor img {
+    float: left;
+  }
+  
+  #footerAutor .license-info {
+    float: right;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  #mainAutor img{
+    width: 30%;
+  }
+
+  
+
+fieldset {
+  display: inline-block;
+  width: 45%; /* dodajte željenu širinu */
+  margin: 10px; /* dodajte željeni razmak */
+}
+
+}
+
+
+
+
+
+/* Univerzalni selektor */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Implicitni selektor */
+html {
+  font-size: 16px;
+}
+
+/* Jednoznačni selektor */
+header {
+  background-color: bisque;
+  color: white;
+}
+
+/* Eksplicitni selektor */
+nav.dropdown {
+  position: relative;
+}
+
+/* Selektor atributa */
+a[target="_blank"] {
+  color: red;
+}
+
+/* Spojeni selektor */
+h1, h3 {
+  text-align: center;
+}
+
+/* Kompleksni selektor sa svim vrstama kombinatora */
+main > ul li + li {
+  margin-top: 10px;
+}
+
+/* Pseudo klase i/ili pseudo elementi */
+/* Pseudo-klasa :hover */
+nav a:hover {
+  background-color: #ddd;
+}
+
+/* Pseudo-klasa :nth-child */
+main ul li:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+/* Pseudo-klasa ::before */
+h1::before {
+  content: ">> ";
+}
+
+/* Model kutije */
+header {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+

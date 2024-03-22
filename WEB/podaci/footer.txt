@@ -1,0 +1,22 @@
+</section>
+</main>
+<footer>
+    <a href="https://validator.w3.org/nu/?doc=http://spider.foi.hr/OWT/2023/zadaca_02/mroksandi21/ostalo/ponuda3.html">
+        <img src="/dokumenti/slike/HTML5.png" alt="HTML5 ikona">
+     </a>
+	 <a href="https://jigsaw.w3.org/css-validator/validator?uri=http://spider.foi.hr/OWT/2023/zadaca_02/mroksandi21/css/mroksandi21.css" target="_blank">
+		<img src="/dokumenti/slike/css_icon.png" alt="CSS ikona">
+	 </a>
+    <div class="license-info">
+         <a href="https://creativecommons.org/licenses/by-nc/4.0/">
+            <img src="/dokumenti/slike/by-nc.png" alt="CC BY-NC">
+        </a>
+        <span class="copyright">
+            &copy;Mateo Roksandić 2023.
+        </span>
+    </div>
+</footer>
+<script  src="jsk/mroksandi21.js"></script>
+</body>
+
+</html>

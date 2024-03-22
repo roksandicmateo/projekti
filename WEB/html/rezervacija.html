@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/mroksandi21.css">
+	<link rel="stylesheet" type="text/css" href="/css/mroksandi21_responzivni_dizajn.css">
+    <meta name="autor" content="Mateo Roksandić">
+    <meta name="opis"  content="Vjezba 1">  
+    <meta name="kljucne rijeci" content="hotel, vikend, ponuda, spa">
+    <title>Rezervacija</title>
+<body>
+<nav id="navigacija">
+	<header>
+            <a class="logo" href="index.html"><img src="/dokumenti/slike/HOTEL_AZRA.png" alt="logo"> </a>
+    </header>
+	<div class="dropdown">
+		<button class="dropbtn">Izbornik</button>
+		<div class="dropdown-content">
+	<a href="index.html" >HOME</a>
+    <a href="ponuda1.html">Vikend ponuda</a>
+    <a href="ponuda2.html">Suite ponuda</a>
+    <a href="ponuda3.html">Break from work ponuda</a>
+    <a href="/dokumentacija/autor.html">O autoru</a>
+	<a href="/dokumentacija/dokumentacija.html">Dokumentacija</a>
+    <a href="rezervacija.html" class="current-page-link">Rezervacija</a>
+	<a href="galerija.html">Galerija</a>
+	<a href="/dinamicna">Dinamična</a>
+	<a href="/api/rezervacije">REST</a>
+
+		</div></div>
+</nav>
+<main>
+	<h2>Rezervacija</h2>
+	<section id="rezervacija">
+		<h4>Unesite svoju rezervaciju:</h4>
+	<form novalidate id="rezervacijaForma" method="post" action="/api/rezervacije">
+		<fieldset id="podacifieldset">
+			<legend>Osobni podaci</legend>
+			<label for="ime">Ime i prezime:</label>
+			<input type="text" id="ime" name="ime" >
+			<label for="email">E-mail adresa:</label>
+			<input type="email" id="email" name="email" >
+			<label for="telefon">Telefonski broj:</label>
+			<input type="tel" id="telefon" name="telefon" >
+		</fieldset>
+		<fieldset id="rezervaicjafieldset">
+			<legend>Rezervacija</legend>
+			<label for="datum">Datum dolaska:</label>
+			<input type="date" id="datum" name="datum" >
+			<label for="vrijeme">Vrijeme:</label>
+			<input type="time" id="vrijeme" name="vrijeme" >
+			<label for="brojOsoba">Broj osoba:</label>
+			<select id="brojOsoba" name="brojOsoba" >
+				<option value="">Odaberite broj osoba</option>
+				<option value="1 osoba">1</option>
+				<option value="2 osobe">2</option>
+				<option value="3 osobe">3</option>
+				<option value="4 osobe">4</option>
+			</select>
+			<label id="napomenaLabel" for="napomena">Napomena:</label>
+			<textarea id="napomena" name="napomena" rows="2"></textarea>
+		</fieldset>
+
+		<input type="submit" id="submitBtnR" value="Pošalji">
+		<input type="reset" id="resetBtn" value="Poništi">
+	</form>
+</section>
+<h1>Kontakt</h1>
+    <section id="kontakt">
+        <h2>Obrazac za kontakt</h2>
+	<form novalidate id="kontaktForma" action="https://spider.foi.hr/OWT/materijali/ispis_forme.php" method="post">
+        <input type="text" id="predmet" name="predmet" placeholder="Predmet" >
+		<br>
+		<input type="radio" id="option1" name="options" value="Općenito">
+  <label for="option1">Općenito</label><br>
+  <input type="radio" id="option2" name="options" value="Tehnički problem">
+  <label for="option2">Tehnički problem</label><br>
+  <input type="radio" id="option3" name="options" value="Prijedlog">
+  <label for="option3">Prijedlog</label><br>
+  <input type="radio" id="option4" name="options" value="Reklamacija">
+  <label for="option4">Reklamacija</label><br>
+        <textarea name="poruka" id="poruka" rows="2" cols="20" placeholder="Vaša poruka"></textarea>
+        <input type="submit" id="submitBtn" value="Pošalji">
+      </form>
+    </section>
+	<section id="cjenik">
+		<h2>Cjenik usluga</h2>
+			<table class="tablica">
+				<thead>
+					<tr>
+						<th>Usluga</th>
+						<th>Broj osoba</th>
+						<th>Cijena</th>
+						<th>Popust</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Jednokrevetna soba</td>
+						<td>1</td>
+						<td>85 €</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Dvokrevetna soba (single use)</td>
+						<td>1</td>
+						<td>95 €</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Dvokrevetna soba</td>
+						<td>2</td>
+						<td>120 €</td>
+						<td rowspan="2">Djeca 7-12 g. 50%</td>
+					</tr>
+					<tr>
+						<td>Family soba</td>
+						<td>2</td>
+						<td>140 €</td>
+					</tr>
+					<tr>
+						<td>Family soba</td>
+						<td>1</td>
+						<td>130 € kn</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Family soba</td>
+						<td colspan="2">3 pax = 160 €</td>
+						<td>Djeca 7-12 g. 50 €</td>
+					</tr>		</tbody>
+			</table>
+		</section>
+</main>
+<footer>
+    <a href="https://validator.w3.org/nu/?doc=http://spider.foi.hr/OWT/2023/zadaca_02/mroksandi21/ostalo/ponuda3.html">
+        <img src="/dokumenti/slike/HTML5.png" alt="HTML5 ikona">
+     </a>
+	 <a href="https://jigsaw.w3.org/css-validator/validator?uri=http://spider.foi.hr/OWT/2023/zadaca_02/mroksandi21/css/mroksandi21.css" target="_blank">
+		<img src="/dokumenti/slike/css_icon.png" alt="CSS ikona">
+	 </a>
+    <div class="license-info">
+         <a href="https://creativecommons.org/licenses/by-nc/4.0/">
+            <img src="/dokumenti/slike/by-nc.png" alt="CC BY-NC">
+        </a>
+        <span class="copyright">
+            &copy;Mateo Roksandić 2023.
+        </span>
+    </div>
+</footer>
+<script  src="jsk\mroksandi21.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/mroksandi21.css">
+	<link rel="stylesheet" type="text/css" href="/css/mroksandi21_responzivni_dizajn.css">
+    <meta name="autor" content="Mateo Roksandić">
+    <meta name="opis"  content="Vjezba 1">  
+    <meta name="kljucne rijeci" content="hotel, vikend, ponuda, spa">
+    <title>Rezervacija</title>
+<body>
+<nav>
+	<header>
+            <a class="logo" href="index.html"><img src="/dokumenti/slike/HOTEL_AZRA.png" alt="logo"> </a>
+    </header>
+	<div class="dropdown">
+		<button class="dropbtn">Izbornik</button>
+		<div class="dropdown-content">
+	<a href="index.html" >HOME</a>
+    <a href="ponuda1.html">Vikend ponuda</a>
+    <a href="ponuda2.html">Suite ponuda</a>
+    <a href="ponuda3.html">Break from work ponuda</a>
+    <a href="/dokumentacija/autor.html">O autoru</a>
+	<a href="/dokumentacija/dokumentacija.html">Dokumentacija</a>
+    <a href="rezervacija.html">Rezervacija</a>
+	<a href="galerija.html">Galerija</a>
+	<a href="/dinamicna" class="current-page-link">Dinamična</a>
+	<a href="/api/rezervacije">REST</a>
+
+
+		</div></div>
+</nav>
+<main>
+	<h2>Rezervacija</h2>
+	<section id="rezervacija">
+		<h4>Unesite svoju rezervaciju:</h4>
+	<form novalidate id="rezervacijaForma" method="post" action="https://spider.foi.hr/OWT/materijali/ispis_forme.php">
+		<fieldset id="podacifieldset">
+			<legend>Osobni podaci</legend>
+			<label for="ime">Ime i prezime:</label>
+			<input type="text" id="ime" name="ime" >
+			<label for="email">E-mail adresa:</label>
+			<input type="email" id="email" name="email" >
+			<label for="telefon">Telefonski broj:</label>
+			<input type="tel" id="telefon" name="telefon" >
+		</fieldset>
+		<fieldset id="rezervaicjafieldset">
+			<legend>Rezervacija</legend>
+			<label for="datum">Datum dolaska:</label>
+			<input type="date" id="datum" name="datum" >
+			<label for="vrijeme">Vrijeme:</label>
+			<input type="time" id="vrijeme" name="vrijeme" >
+			<label for="brojOsoba">Broj osoba:</label>
+			<select id="brojOsoba" name="brojOsoba" >
+				<option value="">Odaberite broj osoba</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+			</select>
+			<label id="napomenaLabel" for="napomena">Napomena:</label>
+			<textarea id="napomena" name="napomena" rows="2"></textarea>
+		</fieldset>
+
+		<input type="submit" id="submitBtnR" value="Pošalji">
+		<input type="reset" id="resetBtn" value="Poništi">
+	</form>
+</section>
+<h1>Kontakt</h1>
+    <section id="kontakt">
+        <h2>Obrazac za kontakt</h2>
+	<form novalidate id="kontaktForma" action="https://spider.foi.hr/OWT/materijali/ispis_forme.php" method="post">
+        <input type="text" id="predmet" name="predmet" placeholder="Predmet" >
+		<br>
+		<input type="radio" id="option1" name="options" value="Općenito">
+  <label for="option1">Općenito</label><br>
+  <input type="radio" id="option2" name="options" value="Tehnički problem">
+  <label for="option2">Tehnički problem</label><br>
+  <input type="radio" id="option3" name="options" value="Prijedlog">
+  <label for="option3">Prijedlog</label><br>
+  <input type="radio" id="option4" name="options" value="Reklamacija">
+  <label for="option4">Reklamacija</label><br>
+        <textarea name="poruka" id="poruka" rows="2" cols="20" placeholder="Vaša poruka"></textarea>
+        <input type="submit" id="submitBtn" value="Pošalji">
+      </form>
+    </section>
+	<section>

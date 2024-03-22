@@ -1,0 +1,63 @@
+[
+    {
+      "usluga": "Jednokrevetna soba",
+      "brojOsoba": 1,
+      "cijena": 100,
+      "popust": "-"
+    },
+    {
+      "usluga": "Dvokrevetna soba",
+      "brojOsoba": 2,
+      "cijena": 150,
+      "popust": "-"
+    },
+    {
+      "usluga": "Suite s pogledom na more",
+      "brojOsoba": 2,
+      "cijena": 250,
+      "popust": "-"
+    },
+    {
+      "usluga": "Doručak",
+      "brojOsoba": 1,
+      "cijena": 20,
+      "popust": "15%"
+    },
+    {
+      "usluga": "Ručak",
+      "brojOsoba": 1,
+      "cijena": 30,
+      "popust": "10%"
+    },
+    {
+      "usluga": "Večera",
+      "brojOsoba": 1,
+      "cijena": 40,
+      "popust": "-"
+    },
+    {
+      "usluga": "Bazen",
+      "brojOsoba": 1,
+      "cijena": 10,
+      "popust": "10%"
+    },
+    {
+      "usluga": "Wellness centar",
+      "brojOsoba": 1,
+      "cijena": 25,
+      "popust": "10%"
+    },
+    {
+      "usluga": "Masaža",
+      "brojOsoba": 1,
+      "cijena": 50,
+      "popust": "-"
+    },
+    {
+      "usluga": "Pristup plaži",
+      "brojOsoba": 1,
+      "cijena": 5,
+      "popust": "20%"
+    }
+  ]
+  
