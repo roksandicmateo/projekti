@@ -1,0 +1,15 @@
+C:\Users\Mateo\source\Repos\pi2023-zadace-mroksandi21\MojiTroškovi\MojiTroškovi\bin\Debug\MojiTroškovi.exe.config
+C:\Users\Mateo\source\Repos\pi2023-zadace-mroksandi21\MojiTroškovi\MojiTroškovi\bin\Debug\MojiTroškovi.exe
+C:\Users\Mateo\source\Repos\pi2023-zadace-mroksandi21\MojiTroškovi\MojiTroškovi\bin\Debug\MojiTroškovi.pdb
+C:\Users\Mateo\source\Repos\pi2023-zadace-mroksandi21\MojiTroškovi\MojiTroškovi\obj\Debug\MojiTroškovi.csproj.AssemblyReference.cache
+C:\Users\Mateo\source\Repos\pi2023-zadace-mroksandi21\MojiTroškovi\MojiTroškovi\obj\Debug\MojiTroškovi.csproj.SuggestedBindingRedirects.cache
+C:\Users\Mateo\source\Repos\pi2023-zadace-mroksandi21\MojiTroškovi\MojiTroškovi\obj\Debug\MojiTroškovi.Properties.Resources.resources
+C:\Users\Mateo\source\Repos\pi2023-zadace-mroksandi21\MojiTroškovi\MojiTroškovi\obj\Debug\MojiTroškovi.csproj.GenerateResource.cache
+C:\Users\Mateo\source\Repos\pi2023-zadace-mroksandi21\MojiTroškovi\MojiTroškovi\obj\Debug\MojiTroškovi.csproj.CoreCompileInputs.cache
+C:\Users\Mateo\source\Repos\pi2023-zadace-mroksandi21\MojiTroškovi\MojiTroškovi\obj\Debug\MojiTroškovi.exe
+C:\Users\Mateo\source\Repos\pi2023-zadace-mroksandi21\MojiTroškovi\MojiTroškovi\obj\Debug\MojiTroškovi.pdb
+C:\Users\Mateo\source\Repos\pi2023-zadace-mroksandi21\MojiTroškovi\MojiTroškovi\obj\Debug\MojiTroškovi.FrmView.resources
+C:\Users\Mateo\source\Repos\pi2023-zadace-mroksandi21\MojiTroškovi\MojiTroškovi\obj\Debug\MojiTroškovi.FrmEntry.resources
+C:\Users\Mateo\source\Repos\pi2023-zadace-mroksandi21\MojiTroškovi\MojiTroškovi\bin\Debug\DBLayer.dll
+C:\Users\Mateo\source\Repos\pi2023-zadace-mroksandi21\MojiTroškovi\MojiTroškovi\obj\Debug\MojiTroškovi.csproj.CopyComplete
+C:\Users\Mateo\source\Repos\pi2023-zadace-mroksandi21\MojiTroškovi\MojiTroškovi\obj\Debug\MojiTroškovi.FrmEdit.resources
